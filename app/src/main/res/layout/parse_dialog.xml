@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow_btn_bg_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:background="@color/grey"
+        android:text="游戏暂停"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gray_button_background"
+            android:text="退出"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn_restart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/green_button_background"
+            android:text="重玩"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button_background"
+            android:text="继续"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+    </LinearLayout>
+</LinearLayout>
+

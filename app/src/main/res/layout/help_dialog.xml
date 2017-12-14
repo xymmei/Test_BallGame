@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_btn_bg_color"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/green_btn_bg_color"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="游戏帮助" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/blue_btn_bg_color">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="移动木板，在有限生命内反弹小球击破所有砖块即可过关，击破某些砖块会掉落道具，移动木块接住可获得特殊的功能，帮助你更快地清除砖块，目前关卡为10关，快来通关吧！"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/white" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="道具："
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="15sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/long2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="木板变长"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/big" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="球变大"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/slow" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="球速变慢"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/short2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="木板变短"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="球变小"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/fast" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="球速变快"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/ballto3" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="小球数变成3倍"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/fireball1_small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="点击屏幕发射，消除同行所有砖块"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/qiang" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="点击屏幕可发射三枚子弹"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/daodan_fall" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="点击屏幕发射，消除同列所有砖块"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/heart" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="生命+1"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@mipmap/money2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="金币+1"
+                    android:textColor="@color/white"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray_button_background"
+        android:text="返回菜单"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:background="@color/yellow_btn_bg_color"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="设置" />
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:paddingTop="10dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:showText="true"
+            android:switchMinWidth="5dp"
+            android:text="音乐       "
+            android:textColor="@color/black"
+            android:textOff="关"
+            android:textOn="开"
+            android:checked="true"
+            android:switchTextAppearance="@style/text"
+            android:textSize="21sp"
+            android:thumb="@drawable/thumb"
+            android:track="@drawable/track" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:showText="true"
+            android:switchMinWidth="5dp"
+            android:text="音效        "
+            android:textColor="@color/black"
+            android:textOff="关"
+            android:textOn="开"
+            android:checked="true"
+            android:switchTextAppearance="@style/text"
+            android:textSize="21sp"
+            android:thumb="@drawable/thumb"
+            android:track="@drawable/track" />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cancel_button"
+    android:background="@drawable/gray_button_background" android:text="返回"
+    android:textSize="20sp"
+    android:paddingTop="1dp"/>
+
+
+</LinearLayout>
